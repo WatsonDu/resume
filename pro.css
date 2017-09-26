@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:16px;
+}
+a{
+    text-decoration: none;
+}
+.projects{
+    position: relative;
+    display: flex;
+    margin:30px auto;
+    max-width:500px;
+    transition:transform 1s;
+    transform-style:preserve-3d;
+}
+
+.projects h2{
+    justify-content: center;
+    color:cadetblue;
+    margin:30px auto;
+    font-size:20px;
+    text-align: center;
+    margin-bottom:20px;
+
+}
+.projects .items{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    height:600px;
+    max-width:600px;
+    margin:50px 50px;
+    border-radius:2px;
+    box-shadow:rgba(0,0,0,0.19)0 10px 30px;
+    text-align: center;
+    min-width:400px;
+
+}
+.avata>.projects>.items:not(:first-of-type){
+    position: absolute;
+    left:0;
+    top:0;
+}
+.projects>.items>a>.touxiang{
+border-radius:100%;
+}
+.projects>.items>a>p{
+    max-width:300px;
+    font-size:14px;
+    color:dimgrey;
+    padding:10px;
+    justify-content: center;
+    margin:10px auto;
+}
+.projects>.items>a>h3{
+    color:royalblue;
+    margin:10px 0;
+}
+.projects>.items>a>.skills{
+    background: url;
+}
+img{
+    width:400px;
+    height:300px;
+}
+.me{
+    background:antiquewhite;
+}
+.why{
+    background: cornflowerblue;
+}
+.gold{
+    background: aqua;
+}
+.canvas{
+    background: palegreen;
+}
+.lol{
+    background: rosybrown;
+}
+.music{
+    background: pink;
+}
+.pp{
+    background: royalblue;
+}
+.dian{
+    background: midnightblue;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    margin:20px 30px;
+}
+.nav button{
+    flex:0 0 auto;
+    margin:0 5px;
+    cursor:pointer;
+    color:#3333;
+    background:none;
+    border:1px solid;
+    padding:5px 10px;
+}

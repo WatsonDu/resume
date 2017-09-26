@@ -1,59 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hans">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>项目介绍</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        section.projects {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            text-align: center;
-            margin: 50px;
-            padding: 50px;
-        }
-        
-        div {
-            display: flex;
-            justify-content: center;
-            min-width: 200px;
-            height: 100vh;
-            margin: 20px;
-        }
-    </style>
-</head>
-
+    <link rel="stylesheet" href="pro.css">
 <body>
-    <section class="projects">
+<div class="avata" data-gap="80">
+    <div class="projects">
+        <li class="items me">
+            <a href="">
+                <img src="https://i.loli.net/2017/07/22/5972fdc69ec5c.jpg" class="touxiang" alt="">
+                <h2>杜玄瑞</h2>
+                <p>山西运城</p>
+                <p>前端工程师</p>
+                <p>1992年</p>
+            </a>
+        </li>
+        <li class="items why">
+            <a href="" class="intro">
+                <h2>introduction</h2>
+                <h3>WHY IS ME</h3>
+                <p>对于技术的热爱，善于思考，喜欢解决问题</p>
+                <p>拥有良好的审美，视觉动物</p>
+                <p>良好的学习习惯，自学能力较强</p>
+                <p>以后将持续强化对计算机基础，后端知识的补足</p>
+                <h3>为什么转前端</h3>
+                <p>我为什么要转，我也不知道，还没想好ing</p>
+            </a>
+        </li>
+        <li class="items gold">
+            <a href="https://watsondu.github.io/yemian/yemian1.html">
+                <img src="https://ooo.0o0.ooo/2017/05/15/591938f804d27.jpg" alt="">
+                <h2>懒加载页面</h2>
+                <p>使用媒体查询，Flex制作的响应式页面,以及懒加载和自动加载</p>
+                <p>技术栈：原生JS+ npm + ES6 + git + http-server</p>
+            </a>
+        </li>
+        <li class="items canvas">
 
-        <h2>我的作品</h2>
-        <div>
-            <h2>三栏布局</h2>
-            <p>使用媒体查询，Flex制作的响应式页面</p>
-        </div>
+            <a href="">
+                <img src="https://i.loli.net/2017/09/25/59c7f205222d9.jpg" alt="730142372627fde6f2daf52b540a016c.jpg" title="730142372627fde6f2daf52b540a016c.jpg" />
+                <h2>手机画板</h2>
+                <p>使用原生JS，借用CanvasAPI和动态REM（flexible.js）制作的手机画板,包含绘图，擦除，保存，重置等功能</p>
+                <p>技术栈：Canvas+动态REM</p>
 
-        <div>
-            <h2>一个苹果风格的轮播</h2>
-            <p>使用jquery制作的苹果风格轮播</p>
-        </div>
-        <div>
-            <h2>手机画板</h2>
-            <p>使用原生JS，借用CanvasAPI和动态REM（flexible.js）制作的手机画板</p>
-        </div>
-        <div>
-            <h2>自制DOM库，BOM库，jquery库</h2>
-            <p>链接</p>
-        </div>
+            </a>
+        </li>
+        <li class="items lol">
+            <a href="https://watsondu.github.io/LOL/lol.html">
+                <img src="https://i.loli.net/2017/09/25/59c7f0a570360.jpg" alt="ChMkJ1bKxFaIFc8DALn8PlIf5jMAALHFQAaETMAufxW541.jpg" title="ChMkJ1bKxFaIFc8DALn8PlIf5jMAALHFQAaETMAufxW541.jpg" />
+                <h2>英雄联盟</h2>
+                <p>像素级还原英雄联盟官网</p>
+                <p>技术栈：原生JS + jQuery + HTML5 + CSS3</p>
+            </a>
+        </li>
+        <li class="items music">
+            <a href="https://watsondu.github.io/music-demo/music.html">
+                <img src="https://i.loli.net/2017/09/25/59c7eb2485b7c.jpg" alt="">
+                <h2>网易云音乐</h2>
+                <p>手机端网易云音乐，具备播放、暂停、动态显示歌词的功能，使用leancloud作为数据库 实现搜索歌曲并点击跳转到相应的歌曲页面，在不同Retina屏幕下实现1px物理像素，
+                    通过函数限流 处理请求重复发送。用webpack进行打包，以应对复杂场景进行性能优化。</p>
+                <p>技术栈：原生JS + jQuery + Gulp / RequireJS + webpack2.0</p>
+            </a>
+        </li>
+        <li class="items pp">
+            <a href="" class="skills">
+                <img src="" alt="">
+                <h2>skills</h2>
+                <h3>静态页面制作</h3>
+                <p>像素级还原设计稿，实现响应式页面布局</p>
+                <p>css3动画，Flex布局，css2布局</p>
+                <h3>移动端页面</h3>
+                <p>使用动态REM适配所有手机,手机端页面调试</p>
 
+                <h3>熟练使用jquery</h3>
+                <p>了解Jquery常用插件,编写jquery插件</p>
+                <h3>与后端配合开发</h3>
+                <p>了解HTTP协议，知道HTTP请求，响应的定义,熟悉掌握AJAX请求</p>
+                <p>熟悉运用懒加载，预加载等性能优化策略</p>
+                <p>了解并运用过CORS和JSONP两种跨域策略</p>
+            </a>
+        </li>
+        <li class="items dian">
+            <a href="" class="phone">
+                <img src="https://ooo.0o0.ooo/2017/07/23/59738c7bf1731.png" alt="">
+                <h2>联系方式</h2>
+                <h3>电话：18636976944</h3>
+                <h3>QQ：598991476</h3>
+                <h3>邮箱：598991476@qq.com</h3>
+            </a>
+        </li>
+    </div>
+    <div class="nav">
+        <button class=" nav prve">prve</button>
+        <button class=" nav next">next</button>
+    </div>
+</div>
 
-    </section>
 </body>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="pro.js"></script>
 
 </html>

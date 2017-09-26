@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ol,ul,li{
+    list-style:none;
+}
+.skills{
+
+    position:relative;
+    margin:50px auto;
+}
+.skills>.top{
+    text-align: center;
+    color:springgreen;
+}
+.skills>.skill-list{
+    margin:20px auto;
+    text-align: center;
+}
