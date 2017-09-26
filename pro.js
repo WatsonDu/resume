@@ -1,3 +1,4 @@
+import './pro.css'
 window.addEventListener('load',function(){
     var avatas = document.querySelectorAll('.avata')
     for (var i = 0;i<avatas.length;i++){
@@ -21,16 +22,12 @@ window.addEventListener('resize', function () {
 setupNavigation();
 function setupAvata(n, s) {
     var apothem = s / (2 * Math.tan(Math.PI / n));
-    project.style.transformOrigin = '50% 50% ' + -apothem + 'px';
+    project.style.transformOrigin = '50% 10% ' + -apothem + 'px';
     for (var i = 0; i < n; i++) {
-       // itemss[i].style.padding = gap + 'px';
     }for (i = 1; i < n; i++) {
         itemss[i].style.transformOrigin = '50% 50% ' + -apothem + 'px';
         itemss[i].style.transform = 'rotateY(' + i * theta + 'rad)';
     }
-    if (bfc) for (i = 0; i < n; i++) {
-        itemss[i].style.backfaceVisibility = 'hidden';
-    }rotateAvata(currImage);
 }
 
 function setupNavigation() {
