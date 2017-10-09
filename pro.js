@@ -1,4 +1,4 @@
-import './pro.css'
+import 'pro.js'
 window.addEventListener('load',function(){
     var avatas = document.querySelectorAll('.avata')
     for (var i = 0;i<avatas.length;i++){
@@ -48,4 +48,3 @@ function rotateAvata(ItemsIndex) {
     project.style.transform = 'rotateY(' + ItemsIndex * -theta + 'rad)';
 }}
 
-console.log(1)
