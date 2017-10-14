@@ -1,4 +1,4 @@
-import 'pro.js'
+import './pro.css'
 window.addEventListener('load',function(){
     var avatas = document.querySelectorAll('.avata')
     for (var i = 0;i<avatas.length;i++){

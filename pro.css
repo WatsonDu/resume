@@ -45,9 +45,10 @@ a{
 }
 .projects>.items>a>.touxiang{
 border-radius:80px 80px 80px 80px;
-    height:40%;
-    width:40%;
+    height:50%;
+    width:45%;
     margin-top:50px;
+    border:3px solid wheat;
 }
 .projects>.items>a>p{
     max-width:300px;
